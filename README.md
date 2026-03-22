@@ -18,14 +18,14 @@ A simple USB volume controller built with Raspberry Pi Pico and an ALPS rotary e
 
 Encoder (ALPS 5-pin)
 
-C -> GND
-A -> GP16
-B -> GP17
+- C -> GND
+- A -> GP16
+- B -> GP17
 
 Button:
 
-SW -> GP18
-SW -> GND
+- SW -> GP18
+- SW -> GND
 
 ## Software
 
