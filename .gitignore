@@ -1,0 +1,54 @@
+# macOS metadata on removable CIRCUITPY volumes
+.DS_Store
+._*
+.Spotlight-V100/
+.fseventsd/
+.Trashes/
+.Trash-*/
+.metadata_never_index
+.TemporaryItems/
+.apdisk
+
+# CircuitPython runtime/generated files
+boot_out.txt
+
+# Local secrets (Wi-Fi keys, API tokens, etc.)
+settings.toml
+
+# Deployed dependencies and runtime storage
+lib/
+sd/
+
+# Python cache and build artifacts from local tooling
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor/IDE and temp files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and local environment files
+*.log
+.env
+.env.*
+
+# Windows metadata files
+Thumbs.db
+Desktop.ini
